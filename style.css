@@ -1,9 +1,12 @@
+html, body {
+    height: 100vh;
+}
+
 body {
     font-family: Roboto, Ubuntu;
     margin: 0;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 
 }
 
