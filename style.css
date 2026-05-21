@@ -11,10 +11,7 @@ body {
 }
 
 body > * {
-    padding-right: 350px;
-    padding-left: 350px;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding: 48px 255px;
 }
 
 
@@ -94,6 +91,14 @@ button.sign-up {
     margin-bottom: 32px;
 }
 
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
 .info-title {
     font-size: 36px;
     color: #1f2937;
@@ -111,6 +116,10 @@ button.sign-up {
     border-radius: 10px;
     width: 124px;
     height: 124px;
+}
+
+.info-text {
+    width: 124px;
 }
 
 .quote {
